@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "72612255268",
+    "firebase_url": "https://gitfood-94d2c.firebaseio.com",
+    "project_id": "gitfood-94d2c",
+    "storage_bucket": "gitfood-94d2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72612255268:android:38e1d55ce5c61197c42ab1",
+        "android_client_info": {
+          "package_name": "com.google.gitfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72612255268-9u57870ea7ame5mfqpqqu182li3m4okr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOW7dTghy1BwRCd04fkCMlDDRMPpaUzdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72612255268-9u57870ea7ame5mfqpqqu182li3m4okr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

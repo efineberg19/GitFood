@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newpicoffoodhehe"
+    android:gravity="center|clip_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".AddingFoodActivity">
+
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="30dp"
+         android:background="#8D474747"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:shadowColor="#00F36200"
+         android:text="@string/dining_hall_menu"
+         android:textColor="#FFFFFF"
+         android:textSize="36sp"
+         app:fontFamily="@font/anton" />
+
+     <LinearLayout
+         android:id="@+id/checkBoxDisplay"
+         android:layout_width="match_parent"
+         android:layout_height="269dp"
+         android:background="#8D474747"
+         android:orientation="vertical">
+
+          <CheckBox
+              android:id="@+id/checkbox1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="15dp"
+              android:text="@string/food1"
+              android:textColorHighlight="#FFFFFF"
+              android:textColorHint="#FF3E00"
+              android:textColorLink="#FF8900"
+              android:textSize="24sp"
+              app:fontFamily="@font/anton" />
+
+          <CheckBox
+              android:id="@+id/checkbox2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:text="@string/Food2"
+              android:textColorHighlight="#FF8700"
+              android:textColorHint="#FF3E00"
+              android:textColorLink="#FF8900"
+              android:textSize="24sp"
+              app:fontFamily="@font/anton" />
+
+          <CheckBox
+              android:id="@+id/checkbox3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:text="@string/Food3"
+              android:textColorHighlight="#FF8700"
+              android:textColorHint="#FF3E00"
+              android:textColorLink="#FF8900"
+              android:textSize="24sp"
+              app:fontFamily="@font/anton" />
+
+          <CheckBox
+              android:id="@+id/checkbox4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:text="Food4"
+              android:textColorHighlight="#FF8700"
+              android:textColorHint="#FF3E00"
+              android:textColorLink="#FF8900"
+              android:textSize="24sp"
+              app:fontFamily="@font/anton" />
+
+          <CheckBox
+              android:id="@+id/checkbox5"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:text="Food5"
+              android:textColorHighlight="#FF8700"
+              android:textColorHint="#FF3E00"
+              android:textColorLink="#FF8900"
+              android:textSize="24sp"
+              app:fontFamily="@font/anton" />
+
+          <CheckBox
+              android:id="@+id/checkbox6"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:text="Food6"
+              android:textColorHighlight="#FF8700"
+              android:textColorHint="#FF3E00"
+              android:textColorLink="#FF8900"
+              android:textSize="24sp"
+              app:fontFamily="@font/anton" />
+     </LinearLayout>
+
+     <Button
+         android:id="@+id/submitButton"
+         android:layout_width="168dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:background="#AB30BD09"
+         android:text="@string/submit"
+         android:textColor="#FFFFFF"
+         android:textSize="24sp"
+         app:fontFamily="@font/anton" />
+
+</LinearLayout>

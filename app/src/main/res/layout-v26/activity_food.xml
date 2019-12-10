@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FoodActivity"
+    android:background="@drawable/utensils"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#25030303"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="12/11/2019"
+            android:textColor="#0735C5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/anton" />
+
+        <TextView
+            android:id="@+id/foodTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="mealTime"
+            android:textColor="#0735C5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/anton" />
+
+        <TextView
+            android:id="@+id/mealInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dining_hall"
+            android:textColor="#0735C5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/anton" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

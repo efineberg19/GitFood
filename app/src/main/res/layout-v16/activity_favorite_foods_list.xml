@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pastaaa"
+    android:gravity="clip_horizontal|center"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/favoriteFoodsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="10dp"
+        android:background="#DDFFFFFF"
+        android:gravity="clip_vertical|center_horizontal"
+        android:padding="5dp"
+        android:text="My Favorite Foods"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:fontFamily="@font/anton" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="295dp"
+        android:layout_height="381dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="false"
+
+        android:background="#DDFFFFFF"
+        app:fontFamily="@font/anton">
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GitFood</string>
+    <string name="my_favorite_foods">My Favorite Foods</string>
+    <string name="my_menu">My Menu</string>
+    <string name="open_activity_2">open activity 2</string>
+    <string name="activity_1">Activity 1:</string>
+    <string name="activity_2">activity_2</string>
+    <string name="activity_2_">Activity 2</string>
+    <string name="time">Time</string>
+    <string name="mm_dd_yyyy">mm/dd/yyyy</string>
+    <string name="add_food">Add Food</string>
+    <string name="dining_hall_menu">Dining Hall Menu</string>
+    <string name="food1">Food1</string>
+    <string name="food2">food2</string>
+    <string name="food3">food3</string>
+    <string name="food4">food4</string>
+    <string name="location">Location</string>
+    <string name="Food2">Food2</string>
+    <string name="Food3">Food3</string>
+    <string name="Food4">Food4</string>
+    <string name="dining_hall">Dining Hall:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="checkbox">CheckBox</string>
+</resources>
