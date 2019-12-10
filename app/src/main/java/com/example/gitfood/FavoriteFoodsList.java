@@ -129,7 +129,6 @@ public class FavoriteFoodsList extends AppCompatActivity {
 
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        // TODO: Handle error
                         System.out.println(error.toString());
                     }
                 });
@@ -179,7 +178,6 @@ public class FavoriteFoodsList extends AppCompatActivity {
 
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        // TODO: Handle error
                         System.out.println(error.toString());
                     }
                 });
@@ -221,20 +219,14 @@ public class FavoriteFoodsList extends AppCompatActivity {
                                     mealInfo.setText("LAR:" + mealsString.substring(0, mealsString.length() - 1));
                                 }
                             }
-
-                            //.getJSONObject("Item"));//.get("FormalName"));
                         } catch (Exception e) {
                             System.out.println("error");
-                            //e.printStackTrace();
                         }
-
-                        //textView.setText("Response: " + response.toString());
                     }
                 }, new Response.ErrorListener() {
 
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        // TODO: Handle error
                         System.out.println(error.toString());
                     }
                 });
